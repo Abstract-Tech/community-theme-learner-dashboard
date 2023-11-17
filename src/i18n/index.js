@@ -7,6 +7,7 @@ import frMessages from './messages/fr.json';
 import frcaMessages from './messages/fr_CA.json';
 import ptbrMessages from './messages/pt_BR.json';
 import zhcnMessages from './messages/zh_CN.json';
+import deMessages from './messages/de.json';
 
 const appMessages = {
   ar: arMessages,
@@ -15,6 +16,8 @@ const appMessages = {
   'fr-ca': frcaMessages,
   'pt-br': ptbrMessages,
   'zh-cn': zhcnMessages,
+   de: deMessages,
+
 };
 
 export default [
