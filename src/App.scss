@@ -65,3 +65,20 @@ $input-focus-box-shadow: $input-box-shadow; // hack to get upgrade to paragon 4.
     overflow: hidden;
   }
 }
+
+.pgn__card .pgn__card-wrapper-image-cap.horizontal {
+  max-width: 250px !important;
+  min-width: 240px;
+  overflow: hidden;
+
+  @media (max-width: 500px) {
+    max-width: 100% !important;
+  }
+}
+
+.course-image-width {
+ width: 250px !important;
+ @media (max-width: 500px) {
+  width: 100% !important;
+}
+}
