@@ -72,21 +72,3 @@
       }
     }
   }
-}
-
-.pgn__card .pgn__card-wrapper-image-cap.horizontal {
-  max-width: 250px;
-  min-width: 240px;
-  overflow: hidden;
-
-  @media (max-width: 500px) {
-    max-width: 100%;
-  }
-}
-
-.course-image-width {
- width: 250px;
- @media (max-width: 500px) {
-  width: 100%;
-}
-}
